@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:IFMLModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://www.omg.org/spec/20130218/core" xmlns:ext="http://www.omg.org/spec/20130218/ext" id="_DwBgwJFXEe-BeemYTSP3AQ">
+  <interactionFlowModel id="_SBdwoJFYEe-BeemYTSP3AQ">
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_SCK7QJFYEe-BeemYTSP3AQ" name="Painel de controle" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.2/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.4/@viewElements.0/@viewElementEvents.11/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.7/@viewElements.0/@viewElementEvents.3/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.11/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.6/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.3/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="ext:Form" id="_axc_gJSNEe-kq4V8r2a6cw" name="Configura&#xe7;&#xf5;es">
+        <viewElementEvents id="_lQGTMJSOEe-kq4V8r2a6cw" name="Diminuir"/>
+        <viewElementEvents id="_ncAxIJSOEe-kq4V8r2a6cw" name="Diminuir"/>
+        <viewElementEvents id="_1hznIJSOEe-kq4V8r2a6cw" name="Aumentar"/>
+        <viewElementEvents id="_2GeacJSOEe-kq4V8r2a6cw" name="Aumentar"/>
+        <viewElementEvents id="_O5OQcJSREe-kq4V8r2a6cw" name="Option">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_SLvfMJSTEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.1"/>
+        </viewElementEvents>
+        <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_IPUK8JSWEe-kq4V8r2a6cw" name="OnSubmit Event"/>
+        <viewElementEvents id="__H3-UJTiEe-kq4V8r2a6cw" name="Rotation table">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_16Rw4JTjEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.11"/>
+        </viewElementEvents>
+        <viewComponentParts xsi:type="core:DataBinding" id="_qoqd4JSPEe-kq4V8r2a6cw" name="Temperatura"/>
+        <viewComponentParts xsi:type="core:DataBinding" id="_tMzOkJSPEe-kq4V8r2a6cw" name="Temperatura"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_q8K90JSREe-kq4V8r2a6cw" name="ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.4/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_unh1QJSREe-kq4V8r2a6cw" name="Menu">
+        <viewElementEvents id="_P3634JSSEe-kq4V8r2a6cw" name="Informa&#xe7;&#xf5;es">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_ZYpKwJSTEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.2"/>
+        </viewElementEvents>
+        <viewElementEvents id="_R50eMJSSEe-kq4V8r2a6cw" name="Receita">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_XeuawJSeEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5"/>
+        </viewElementEvents>
+        <viewElementEvents id="_SmmEoJSSEe-kq4V8r2a6cw" name="Idioma">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_XwhdIJTlEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.3"/>
+        </viewElementEvents>
+        <viewElementEvents id="_TB_nMJSSEe-kq4V8r2a6cw" name="Configura&#xe7;&#xf5;es">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_S4InUJTkEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.7"/>
+        </viewElementEvents>
+        <viewElementEvents id="_TfXfsJSSEe-kq4V8r2a6cw" name="Time">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_08PF0JSXEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.4"/>
+        </viewElementEvents>
+        <viewElementEvents id="_UWhxMJSSEe-kq4V8r2a6cw" name="">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_zQDJ0JTkEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.12"/>
+        </viewElementEvents>
+        <viewElementEvents id="_WKV4MJSSEe-kq4V8r2a6cw" name="Voltar">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_ZQvvMJTkEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_tXZ0sJSSEe-kq4V8r2a6cw" name="Informa&#xe7;&#xf5;es" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_169KIJSSEe-kq4V8r2a6cw" name="OVEN INFO">
+        <viewElementEvents id="_Nu2dIJSTEe-kq4V8r2a6cw" name="Inicio">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_QUozoJSTEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_5_2tgJSTEe-kq4V8r2a6cw" name="Idioma" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_mmLtoJSUEe-kq4V8r2a6cw" name="ViewComponent">
+        <viewElementEvents id="_tReg8JSUEe-kq4V8r2a6cw" name="Inicio">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_ZHR0sJTlEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_pQbtYJSUEe-kq4V8r2a6cw" name="Selection Field" isMultiSelection="true"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_cFdEYJSVEe-kq4V8r2a6cw" name="CONFIGURAR TEMPO" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.4/@outInteractionFlows.0">
+      <viewElements xsi:type="ext:Form" id="_sOFU0JSVEe-kq4V8r2a6cw" name="DATE AND TIME SETTING">
+        <viewElementEvents id="_G8HBMJSXEe-kq4V8r2a6cw" name="-"/>
+        <viewElementEvents id="_PrGKkJSXEe-kq4V8r2a6cw" name="-"/>
+        <viewElementEvents id="_R80VkJSXEe-kq4V8r2a6cw" name="-"/>
+        <viewElementEvents id="_XlFloJSXEe-kq4V8r2a6cw" name="-"/>
+        <viewElementEvents id="_cQGjQJSXEe-kq4V8r2a6cw" name="-"/>
+        <viewElementEvents id="_gBslkJSXEe-kq4V8r2a6cw" name="+"/>
+        <viewElementEvents id="_hwykoJSXEe-kq4V8r2a6cw" name="+"/>
+        <viewElementEvents id="_jVpCkJSXEe-kq4V8r2a6cw" name="+"/>
+        <viewElementEvents id="_k0Q8sJSXEe-kq4V8r2a6cw" name="+"/>
+        <viewElementEvents id="_mBmSgJSXEe-kq4V8r2a6cw" name="+"/>
+        <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_r1m4gJSXEe-kq4V8r2a6cw" name="OnSubmit Event"/>
+        <viewElementEvents id="_vdF8kJSXEe-kq4V8r2a6cw" name="Inicio">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_ywHzkJSXEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_nNtVwJSWEe-kq4V8r2a6cw" name="DIA"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_nt_YUJSWEe-kq4V8r2a6cw" name="M&#xca;S"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_oXCVUJSWEe-kq4V8r2a6cw" name="DIA"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_yJZnQJSWEe-kq4V8r2a6cw" name="HORA"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_zGuyMJSWEe-kq4V8r2a6cw" name="MINUTOS"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_59hHAJSaEe-kq4V8r2a6cw" name="RECEITA" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0">
+      <viewElements xsi:type="ext:Form" id="_WtEJwJSdEe-kq4V8r2a6cw" name="PROGRAMS LIST">
+        <viewElementEvents id="_HJt7MJSeEe-kq4V8r2a6cw" name="INICIO">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_LB1cQJSeEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+        <viewElementEvents xsi:type="ext:OnSelectEvent" id="_MF79kJSeEe-kq4V8r2a6cw" name="OnSelect Event">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_apssgJSfEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.6/@viewElements.0"/>
+        </viewElementEvents>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_CLREMJSeEe-kq4V8r2a6cw" name="Selection Field"/>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_DXj4MJSeEe-kq4V8r2a6cw" name="Selection Field"/>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_D35lIJSeEe-kq4V8r2a6cw" name="Selection Field"/>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_EovMMJSeEe-kq4V8r2a6cw" name="Selection Field"/>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_Fj4l0JSeEe-kq4V8r2a6cw" name="Selection Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_Nvi_sJSeEe-kq4V8r2a6cw" name="ViewContainer">
+      <viewElements xsi:type="core:ViewComponent" id="_ZFBDIJSeEe-kq4V8r2a6cw" name="PROGRAMS" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.5/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
+        <viewElementEvents id="_AcO6EJSfEe-kq4V8r2a6cw" name="+"/>
+        <viewElementEvents id="_CcaCEJSfEe-kq4V8r2a6cw" name="-"/>
+        <viewElementEvents id="_9Lx0IJTZEe-kq4V8r2a6cw" name="Voltar">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_Au5VkJTaEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.5"/>
+        </viewElementEvents>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_k_kwoJSeEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_xNk-kJSeEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_yj87oJSeEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_z9dFMJSeEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_35vUkJSeEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_6FFKwJSeEe-kq4V8r2a6cw" name="Simple Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_SHtbgJTaEe-kq4V8r2a6cw" name="Configura&#xe7;&#xf5;es" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.8/@viewElements.0/@viewElementEvents.0/@outInteractionFlows.0 //@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.3/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_XYXc0JTaEe-kq4V8r2a6cw" name="OVEN PARAMETERS">
+        <viewElementEvents id="_ss4jUJTaEe-kq4V8r2a6cw" name=""/>
+        <viewElementEvents id="_uXY9UJTaEe-kq4V8r2a6cw" name=""/>
+        <viewElementEvents id="_yiV60JTaEe-kq4V8r2a6cw" name="Senha">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_bjPFUJTbEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.8"/>
+        </viewElementEvents>
+        <viewElementEvents id="_2muWQJTaEe-kq4V8r2a6cw" name="Voltar">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_9JccYJTaEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="__oWHwJTaEe-kq4V8r2a6cw" name="Configura&#xe7;&#xf5;es" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.7/@viewElements.0/@viewElementEvents.2/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_DuGcMJTbEe-kq4V8r2a6cw" name="OVEN PARAMETERS">
+        <viewElementEvents id="_UkwQQJTbEe-kq4V8r2a6cw" name="Voltar">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_ca2p0JTbEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.7"/>
+        </viewElementEvents>
+        <viewElementEvents id="_XkZRMJTbEe-kq4V8r2a6cw" name="Login"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_P_PdsJTbEe-kq4V8r2a6cw" name="senha"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_oexSMJTcEe-kq4V8r2a6cw" name="ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.10/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_pvtVoJTcEe-kq4V8r2a6cw" name="ViewComponent">
+        <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_kPWZgJTeEe-kq4V8r2a6cw" name="OnSubmit Event"/>
+        <viewElementEvents id="_qQxJYJTeEe-kq4V8r2a6cw" name="CAL">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_pSV1cJTiEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.10"/>
+        </viewElementEvents>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_3sQTkJTdEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_4V-mAJTdEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_7iIY8JTdEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="__fbU8JTdEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_A0gRgJTeEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_DhgDQJTeEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_ihuaEJTeEe-kq4V8r2a6cw" name="Selection Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_K_fM4JTgEe-kq4V8r2a6cw" name="ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.9/@viewElements.0/@viewElementEvents.1/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_UI2lIJTgEe-kq4V8r2a6cw" name="TEMPERATURE CALIBRATION">
+        <viewElementEvents xsi:type="ext:OnSubmitEvent" id="_RzwrIJTiEe-kq4V8r2a6cw" name="OnSubmit Event"/>
+        <viewElementEvents id="_iLBNcJTiEe-kq4V8r2a6cw" name="Voltar">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_lfq1EJTiEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.9"/>
+        </viewElementEvents>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_8xuRMJTgEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_GnXgoJThEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_IL3ZQJThEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_JZbYkJThEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_KwQooJThEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SelectionField" id="_40ZDgJThEe-kq4V8r2a6cw" name="Selection Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_M_f1cJTjEe-kq4V8r2a6cw" name="ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.0/@viewElements.0/@viewElementEvents.6/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_QEKgUJTjEe-kq4V8r2a6cw" name="ROTATION TABLE">
+        <viewElementEvents id="_fzKv0JTjEe-kq4V8r2a6cw" name="+"/>
+        <viewElementEvents id="_h12ZQJTjEe-kq4V8r2a6cw" name="-"/>
+        <viewElementEvents id="_tvoqsJTjEe-kq4V8r2a6cw" name="Sair">
+          <outInteractionFlows xsi:type="core:NavigationFlow" id="_3_LA0JTjEe-kq4V8r2a6cw" targetInteractionFlowElement="//@interactionFlowModel/@interactionFlowModelElements.0"/>
+        </viewElementEvents>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_WG5e0JTjEe-kq4V8r2a6cw" name="Simple Field"/>
+        <viewComponentParts xsi:type="ext:SimpleField" id="_ZYB4YJTjEe-kq4V8r2a6cw" name="Simple Field"/>
+      </viewElements>
+    </interactionFlowModelElements>
+    <interactionFlowModelElements xsi:type="core:ViewContainer" id="_qT8xgJTkEe-kq4V8r2a6cw" name="ViewContainer" inInteractionFlows="//@interactionFlowModel/@interactionFlowModelElements.1/@viewElements.0/@viewElementEvents.5/@outInteractionFlows.0">
+      <viewElements xsi:type="core:ViewComponent" id="_rAxbQJTkEe-kq4V8r2a6cw" name="ViewComponent"/>
+    </interactionFlowModelElements>
+  </interactionFlowModel>
+  <domainModel id="_DwBgwZFXEe-BeemYTSP3AQ"/>
+</core:IFMLModel>
